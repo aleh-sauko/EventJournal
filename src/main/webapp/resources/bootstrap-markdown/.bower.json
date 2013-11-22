@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-markdown",
+  "version": "2.0.0",
+  "main": [
+    "./js/bootstrap-markdown.js",
+    "./css/bootstrap-markdown.min.css"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  },
+  "devDependencies": {
+    "markdown": "~0.4.0"
+  },
+  "homepage": "https://github.com/toopay/bootstrap-markdown",
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.0",
+    "commit": "6336a60e583fbeebb55d5454a8d3cd4b2e50e5f0"
+  },
+  "_source": "git://github.com/toopay/bootstrap-markdown.git",
+  "_target": "~2.0.0",
+  "_originalSource": "bootstrap-markdown",
+  "_direct": true
+}

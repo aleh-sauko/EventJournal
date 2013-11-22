@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <!-- Default Main Template -->
+    <definition name="mainTemplate" template="/WEB-INF/views/templates/main.jsp">
+        <put-attribute name="title" value="Event Journal" type="string" />
+        <put-attribute name="header" value="/WEB-INF/views/templates/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/templates/menu.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/templates/footer.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/templates/blank.jsp" />
+    </definition>
+ 
+    <definition name="index" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+    </definition>
+    
+    <definition name="login" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+    </definition>
+
+    <definition name="registration" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/registration_form.jsp" />
+    </definition>
+    
+    <definition name="profile" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/profile.jsp" />
+    </definition>
+    
+    <definition name="profile_view" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/profile_view.jsp" />
+    </definition>
+    
+    <definition name="events" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/events.jsp" />
+    </definition>
+
+    <definition name="categories" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/categories.jsp" />
+    </definition>
+
+    <definition name="event" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/event.jsp" />
+    </definition>
+    <definition name="event_create" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/event_form.jsp" />
+    </definition>
+    
+    <definition name="photos" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/photos.jsp" />
+    </definition>
+    
+    <definition name="password_change" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/password_change.jsp" />
+    </definition>
+    
+    <definition name="admin" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/administration.jsp" />
+    </definition>
+    
+    <definition name="error403" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/error403.jsp" />
+    </definition>
+    
+</tiles-definitions>
