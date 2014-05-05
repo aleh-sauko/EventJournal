@@ -14,7 +14,7 @@ public class Sender {
  
     public Sender() {
         this.username = "aleh.sauko@gmail.com";
-        this.password = "s1o99A4j1An";
+        this.password = "password";
  
         props = new Properties();
         props.put("mail.smtp.auth", "true");
